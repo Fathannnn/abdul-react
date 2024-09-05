@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    box-shadow: 0 0 8px 3px black;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar .logo img {
+    width: 100px;
+}
+
+.navbar .nav_menu {
+    display: flex;
+}
+
+.nav_menu {
+    position: absolute;
+    inset: 0;
+    justify-content: center;
+}
+
+.nav_menu ul {
+    position: relative;
+    gap: 100px;
+}
+
+.nav_menu li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav_menu li a { 
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: .4s ease;
+}
+
+.nav_menu li a:hover {
+    color: rgb(245, 204, 0);
+}

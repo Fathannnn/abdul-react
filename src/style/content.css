@@ -1,0 +1,32 @@
+.content img {
+    width: 100%;
+    justify-content: center;
+    margin-top: -400px;
+}
+
+.content .text {
+    position: absolute;
+    margin-top: -20rem;
+    justify-content: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+.content .text button {
+    border: none;
+    background-color: black;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.content .text button:hover {
+    background-color: rgba(0, 0, 0, 0.669);
+    transform: translateY(-5px);
+}
